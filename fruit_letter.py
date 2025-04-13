@@ -23,9 +23,7 @@ def fruit_main():
 
 def fruit_retry():
     """
-    
     keep running fruit_main() until user decides to quit
-    
     """
         while True:
                 fruit_main() # run main fruit lookup program
