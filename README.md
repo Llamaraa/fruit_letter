@@ -14,7 +14,7 @@ Created as a simple learning program.
 - 5-second countdown delay before exiting when quitting
 
 
-## Predefined fruits:
+## Predefined Fruits:
 
 - apple
 - banana
@@ -23,7 +23,7 @@ Created as a simple learning program.
 
 
 
-## Getting started
+## Getting Started
 
 ### Requirements
 - Python 3.x
