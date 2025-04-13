@@ -34,3 +34,7 @@ Clone this repository or download the `fruit_letter.py` file, then run in your c
 
 ```bash
 python fruit_letter.py
+```
+
+## License
+This program is licensed under the [MIT license](LICENSE).
