@@ -21,6 +21,8 @@ Created as a simple learning program.
 - grapes
 - pear
 
+### Entering in anything else other than the 4 listed will cause an error.
+
 
 
 ## Getting Started
