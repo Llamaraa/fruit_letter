@@ -25,16 +25,17 @@ def fruit_retry():
     """
     keep running fruit_main() until user decides to quit
     """
-        while True:
-                fruit_main() # run main fruit lookup program
-                user_input = input("Do you want to try again? (y/n/):").lower() # get user choice to continue or quit
+    
+while True:
+        fruit_main() # run main fruit lookup program
+        user_input = input("Do you want to try again? (y/n):").lower() # get user choice to continue or quit
 
-                if user_input == 'n':
-                        print("Quitting...")
-                        time.sleep(5) # wait 5 seconds before quitting
-                        break
-                elif user_input != 'y':
-                        print("Invalid input, type 'y' or 'n' to continue.") # show error if user input is not 'y' or 'n'
+        if user_input == 'n':
+                print("Quitting...")
+                time.sleep(5) # wait 5 seconds before quitting
+                break
+        elif user_input != 'y':
+                print("Invalid input, type 'y' or 'n' to continue.") # show error if user input is not 'y' or 'n'
                         
 # start retry loop
 fruit_retry()
